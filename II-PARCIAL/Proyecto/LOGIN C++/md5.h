@@ -1,3 +1,17 @@
+
+/**************++++++++++++++++++++++++++++++++++********************
+			  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+		Pograma: Recursividad de la torre de hanoi
+		Autores:
+		  -CAIZA Alisson
+		  -LOACHAMIN Johnny
+		  -SALAZAR Matthew
+		  -SALAZAR Dominique
+		 Fecha de creación: 2022-01-08
+		Fecha de modificación: 2022-01-25
+		Versión: V1.0
+				  ESTRUCTURA DE DATOS 7166
+********************************************************************/
 /**
  * @file md5.h
  * @author Matthew Salazar, Dominique Salazar, Johnny Loachamin, Alisson Caiza 
@@ -91,6 +105,7 @@ private:
   uint1 buffer[blocksize]; // bytes that didn't fit in last 64 byte chunk
   uint4 count[2];   // 64bit counter for number of bits (lo, hi)
   uint4 state[4];   // digest so far
+
   uint1 digest[16]; // the result
  
   // low level logic operations

@@ -1,3 +1,17 @@
+
+/**************++++++++++++++++++++++++++++++++++********************
+			  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+		Pograma: Recursividad de la torre de hanoi
+		Autores:
+		  -CAIZA Alisson
+		  -LOACHAMIN Johnny
+		  -SALAZAR Matthew
+		  -SALAZAR Dominique
+		 Fecha de creación: 2022-01-08
+		Fecha de modificación: 2022-01-25
+		Versión: V1.0
+				  ESTRUCTURA DE DATOS 7166
+********************************************************************/
 /**
  * @file LOGIN C++.cpp
  * @author Matthew Salazar, Dominique Salazar, Johnny Loachamin, Alisson Caiza
@@ -513,7 +527,7 @@ int main()
             fflush(stdin);
             scanf("%c", &opcion);
 
-        } while (opcion < '1' || opcion > '3');
+        } while (opcion < '1' || opcion > '4');
 
         switch (opcion)
         {

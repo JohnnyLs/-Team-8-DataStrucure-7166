@@ -1,3 +1,17 @@
+
+/**************++++++++++++++++++++++++++++++++++********************
+			  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+		Pograma: Recursividad de la torre de hanoi
+		Autores:
+		  -CAIZA Alisson
+		  -LOACHAMIN Johnny
+		  -SALAZAR Matthew
+		  -SALAZAR Dominique
+		 Fecha de creación: 2022-01-08
+		Fecha de modificación: 2022-01-25
+		Versión: V1.0
+				  ESTRUCTURA DE DATOS 7166
+********************************************************************/
 /*
  *****************************************************************************
  *                                                                           *

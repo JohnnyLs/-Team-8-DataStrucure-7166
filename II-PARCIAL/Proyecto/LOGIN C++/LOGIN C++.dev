@@ -81,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=..\..\..\..\..\Users\Matthew Salazar\Downloads\Compressed\bitmap\bitmap\bitmap_image.hpp
+FileName=bitmap_image.hpp
 CompileCpp=1
 Folder=
 Compile=1
