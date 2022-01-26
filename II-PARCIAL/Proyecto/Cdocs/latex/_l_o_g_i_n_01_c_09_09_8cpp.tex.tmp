@@ -1,0 +1,375 @@
+\hypertarget{_l_o_g_i_n_01_c_09_09_8cpp}{}\doxysection{Referencia del Archivo LOGIN C++/\+LOGIN C++.cpp}
+\label{_l_o_g_i_n_01_c_09_09_8cpp}\index{LOGIN C++/LOGIN C++.cpp@{LOGIN C++/LOGIN C++.cpp}}
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$conio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stdio.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$stack$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$locale.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}md5.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para LOGIN C++.cpp\+:
+% FIG 0
+\doxysubsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_calcular_expresion}{Calcular\+Expresion}}
+\begin{DoxyCompactList}\small\item\em The login class. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}}
+\end{DoxyCompactItemize}
+\doxysubsection*{defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a392fb874e547e582e9c66a08a1f23326}{MAX}}~3
+\item 
+\#define \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_adbd5cbe76e047a39e0a34f085cdae6fe}{MIN}}~0
+\end{DoxyCompactItemize}
+\doxysubsection*{typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef char \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}}\mbox{[}\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a0fa39d9cb400e4749ed02c0c951fe345}{MAXCAD}}+1\mbox{]}
+\end{DoxyCompactItemize}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_ad3befffba77b3954d6bbea4d22afc517}{pausa}} ()
+\begin{DoxyCompactList}\small\item\em pausa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a8aee71264a6c48d8703d2833004d7b71}{finalizar\+\_\+programa}} ()
+\begin{DoxyCompactList}\small\item\em finalizar\+\_\+programa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_ad777c803a9fba8471c5ad279930eef5a}{borrar\+\_\+pantalla}} ()
+\begin{DoxyCompactList}\small\item\em borrar\+\_\+pantalla \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a68f70485c1bab00878c90a60c315026d}{Ingresar\+\_\+\+PASS}} (\mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} \&p)
+\begin{DoxyCompactList}\small\item\em Ingresar\+\_\+\+PASS. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a3e849f9ae8c0d4605e005dd4dbd4299e}{confirmar\+\_\+\+PASS}} (\mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} \&p)
+\begin{DoxyCompactList}\small\item\em confirmar\+\_\+\+PASS \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_ab1df43187cc07a14db54fe9b7ac2e4ae}{insertar\+Persona\+TXT}} (\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}} nombre\+Fichero, \mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} p)
+\begin{DoxyCompactList}\small\item\em insertar\+Persona\+TXT \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_affac9c9375641881ca148b062b5d36ce}{Escribe\+Persona\+Fichero\+TXT}} (ofstream \&fichero, \mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} p)
+\begin{DoxyCompactList}\small\item\em Escribe\+Persona\+Fichero\+TXT. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a6a17355b6b5b1da6d3cd1ec961fbf8a3}{verificar\+\_\+existencia\+\_\+fichero}} (\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}} nombre\+Fichero)
+\begin{DoxyCompactList}\small\item\em verificar\+\_\+existencia\+\_\+fichero \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a2cfb19675ebaa784ced8e4c63bcc61a8}{verificar\+\_\+existencia\+\_\+de\+\_\+usuario}} (\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}} nombre\+Fichero)
+\begin{DoxyCompactList}\small\item\em verificar\+\_\+existencia\+\_\+de\+\_\+usuario \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a59d4925ed7ab663abaea69c2c37111d9}{verificar\+\_\+contrasena}} (\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}} nombre\+Fichero, \mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} \&password)
+\begin{DoxyCompactList}\small\item\em verificar\+\_\+contrasena \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em main \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const char \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_ad7caec9a2c551ce8b592ca4775fcb68f}{FINCAD}} = char(0)
+\item 
+const int \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a0fa39d9cb400e4749ed02c0c951fe345}{MAXCAD}} = 20
+\item 
+const char \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a87382b332c29e1f67ae86bf3d2c5c3c7}{SP}} = \textquotesingle{} \textquotesingle{}
+\item 
+char \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a9314ce5a97b033aa2992caf873b8cc69}{contrasena}}
+\item 
+int \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_acb559820d9ca11295b4500f179ef6392}{i}}
+\item 
+int \mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a2c6a3fb7cddd9bd7254692264962b5b3}{contador}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de los \textquotesingle{}defines\textquotesingle{}}
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a392fb874e547e582e9c66a08a1f23326}\label{_l_o_g_i_n_01_c_09_09_8cpp_a392fb874e547e582e9c66a08a1f23326}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!MAX@{MAX}}
+\index{MAX@{MAX}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{MAX}{MAX}}
+{\footnotesize\ttfamily \#define MAX~3}
+
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_adbd5cbe76e047a39e0a34f085cdae6fe}\label{_l_o_g_i_n_01_c_09_09_8cpp_adbd5cbe76e047a39e0a34f085cdae6fe}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!MIN@{MIN}}
+\index{MIN@{MIN}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{MIN}{MIN}}
+{\footnotesize\ttfamily \#define MIN~0}
+
+
+
+\doxysubsection{Documentación de los \textquotesingle{}typedefs\textquotesingle{}}
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}\label{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!TCadena@{TCadena}}
+\index{TCadena@{TCadena}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{TCadena}{TCadena}}
+{\footnotesize\ttfamily typedef char TCadena\mbox{[}\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a0fa39d9cb400e4749ed02c0c951fe345}{MAXCAD}}+1\mbox{]}}
+
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_ad777c803a9fba8471c5ad279930eef5a}\label{_l_o_g_i_n_01_c_09_09_8cpp_ad777c803a9fba8471c5ad279930eef5a}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!borrar\_pantalla@{borrar\_pantalla}}
+\index{borrar\_pantalla@{borrar\_pantalla}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{borrar\_pantalla()}{borrar\_pantalla()}}
+{\footnotesize\ttfamily void borrar\+\_\+pantalla (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+borrar\+\_\+pantalla 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+% FIG 1
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a3e849f9ae8c0d4605e005dd4dbd4299e}\label{_l_o_g_i_n_01_c_09_09_8cpp_a3e849f9ae8c0d4605e005dd4dbd4299e}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!confirmar\_PASS@{confirmar\_PASS}}
+\index{confirmar\_PASS@{confirmar\_PASS}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{confirmar\_PASS()}{confirmar\_PASS()}}
+{\footnotesize\ttfamily void confirmar\+\_\+\+PASS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} \&}]{p }\end{DoxyParamCaption})}
+
+
+
+confirmar\+\_\+\+PASS 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_affac9c9375641881ca148b062b5d36ce}\label{_l_o_g_i_n_01_c_09_09_8cpp_affac9c9375641881ca148b062b5d36ce}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!EscribePersonaFicheroTXT@{EscribePersonaFicheroTXT}}
+\index{EscribePersonaFicheroTXT@{EscribePersonaFicheroTXT}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{EscribePersonaFicheroTXT()}{EscribePersonaFicheroTXT()}}
+{\footnotesize\ttfamily void Escribe\+Persona\+Fichero\+TXT (\begin{DoxyParamCaption}\item[{ofstream \&}]{fichero,  }\item[{\mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Escribe\+Persona\+Fichero\+TXT. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 2
+Gráfico de llamadas a esta función\+:
+% FIG 3
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a8aee71264a6c48d8703d2833004d7b71}\label{_l_o_g_i_n_01_c_09_09_8cpp_a8aee71264a6c48d8703d2833004d7b71}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!finalizar\_programa@{finalizar\_programa}}
+\index{finalizar\_programa@{finalizar\_programa}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{finalizar\_programa()}{finalizar\_programa()}}
+{\footnotesize\ttfamily void finalizar\+\_\+programa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+finalizar\+\_\+programa. 
+
+finalizar\+\_\+programa
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 4
+Gráfico de llamadas a esta función\+:
+% FIG 5
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a68f70485c1bab00878c90a60c315026d}\label{_l_o_g_i_n_01_c_09_09_8cpp_a68f70485c1bab00878c90a60c315026d}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!Ingresar\_PASS@{Ingresar\_PASS}}
+\index{Ingresar\_PASS@{Ingresar\_PASS}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{Ingresar\_PASS()}{Ingresar\_PASS()}}
+{\footnotesize\ttfamily void Ingresar\+\_\+\+PASS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} \&}]{p }\end{DoxyParamCaption})}
+
+
+
+Ingresar\+\_\+\+PASS. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+% FIG 6
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_ab1df43187cc07a14db54fe9b7ac2e4ae}\label{_l_o_g_i_n_01_c_09_09_8cpp_ab1df43187cc07a14db54fe9b7ac2e4ae}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!insertarPersonaTXT@{insertarPersonaTXT}}
+\index{insertarPersonaTXT@{insertarPersonaTXT}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{insertarPersonaTXT()}{insertarPersonaTXT()}}
+{\footnotesize\ttfamily void insertar\+Persona\+TXT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}}}]{nombre\+Fichero,  }\item[{\mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}}}]{p }\end{DoxyParamCaption})}
+
+
+
+insertar\+Persona\+TXT 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 7
+Gráfico de llamadas a esta función\+:
+% FIG 8
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_l_o_g_i_n_01_c_09_09_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!main@{main}}
+\index{main@{main}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+main 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em argc} & \\
+\hline
+{\em argv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 9
+Gráfico de llamadas a esta función\+:
+% FIG 10
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_ad3befffba77b3954d6bbea4d22afc517}\label{_l_o_g_i_n_01_c_09_09_8cpp_ad3befffba77b3954d6bbea4d22afc517}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!pausa@{pausa}}
+\index{pausa@{pausa}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{pausa()}{pausa()}}
+{\footnotesize\ttfamily void pausa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+pausa. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a59d4925ed7ab663abaea69c2c37111d9}\label{_l_o_g_i_n_01_c_09_09_8cpp_a59d4925ed7ab663abaea69c2c37111d9}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!verificar\_contrasena@{verificar\_contrasena}}
+\index{verificar\_contrasena@{verificar\_contrasena}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{verificar\_contrasena()}{verificar\_contrasena()}}
+{\footnotesize\ttfamily void verificar\+\_\+contrasena (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}}}]{nombre\+Fichero,  }\item[{\mbox{\hyperlink{struct_persona___r}{Persona\+\_\+R}} \&}]{password }\end{DoxyParamCaption})}
+
+
+
+verificar\+\_\+contrasena 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 11
+Gráfico de llamadas a esta función\+:
+% FIG 12
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a2cfb19675ebaa784ced8e4c63bcc61a8}\label{_l_o_g_i_n_01_c_09_09_8cpp_a2cfb19675ebaa784ced8e4c63bcc61a8}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!verificar\_existencia\_de\_usuario@{verificar\_existencia\_de\_usuario}}
+\index{verificar\_existencia\_de\_usuario@{verificar\_existencia\_de\_usuario}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{verificar\_existencia\_de\_usuario()}{verificar\_existencia\_de\_usuario()}}
+{\footnotesize\ttfamily void verificar\+\_\+existencia\+\_\+de\+\_\+usuario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}}}]{nombre\+Fichero }\end{DoxyParamCaption})}
+
+
+
+verificar\+\_\+existencia\+\_\+de\+\_\+usuario 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 13
+Gráfico de llamadas a esta función\+:
+% FIG 14
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a6a17355b6b5b1da6d3cd1ec961fbf8a3}\label{_l_o_g_i_n_01_c_09_09_8cpp_a6a17355b6b5b1da6d3cd1ec961fbf8a3}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!verificar\_existencia\_fichero@{verificar\_existencia\_fichero}}
+\index{verificar\_existencia\_fichero@{verificar\_existencia\_fichero}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{verificar\_existencia\_fichero()}{verificar\_existencia\_fichero()}}
+{\footnotesize\ttfamily void verificar\+\_\+existencia\+\_\+fichero (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_l_o_g_i_n_01_c_09_09_8cpp_a25aca09e3a59bbf995bb57b54e7d5db6}{TCadena}}}]{nombre\+Fichero }\end{DoxyParamCaption})}
+
+
+
+verificar\+\_\+existencia\+\_\+fichero 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cad} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 15
+Gráfico de llamadas a esta función\+:
+% FIG 16
+
+
+\doxysubsection{Documentación de las variables}
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a2c6a3fb7cddd9bd7254692264962b5b3}\label{_l_o_g_i_n_01_c_09_09_8cpp_a2c6a3fb7cddd9bd7254692264962b5b3}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!contador@{contador}}
+\index{contador@{contador}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{contador}{contador}}
+{\footnotesize\ttfamily int contador = 0}
+
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a9314ce5a97b033aa2992caf873b8cc69}\label{_l_o_g_i_n_01_c_09_09_8cpp_a9314ce5a97b033aa2992caf873b8cc69}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!contrasena@{contrasena}}
+\index{contrasena@{contrasena}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{contrasena}{contrasena}}
+{\footnotesize\ttfamily char contrasena}
+
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_ad7caec9a2c551ce8b592ca4775fcb68f}\label{_l_o_g_i_n_01_c_09_09_8cpp_ad7caec9a2c551ce8b592ca4775fcb68f}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!FINCAD@{FINCAD}}
+\index{FINCAD@{FINCAD}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{FINCAD}{FINCAD}}
+{\footnotesize\ttfamily const char FINCAD = char(0)}
+
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_acb559820d9ca11295b4500f179ef6392}\label{_l_o_g_i_n_01_c_09_09_8cpp_acb559820d9ca11295b4500f179ef6392}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!i@{i}}
+\index{i@{i}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{i}{i}}
+{\footnotesize\ttfamily int i}
+
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a0fa39d9cb400e4749ed02c0c951fe345}\label{_l_o_g_i_n_01_c_09_09_8cpp_a0fa39d9cb400e4749ed02c0c951fe345}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!MAXCAD@{MAXCAD}}
+\index{MAXCAD@{MAXCAD}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{MAXCAD}{MAXCAD}}
+{\footnotesize\ttfamily const int MAXCAD = 20}
+
+\mbox{\Hypertarget{_l_o_g_i_n_01_c_09_09_8cpp_a87382b332c29e1f67ae86bf3d2c5c3c7}\label{_l_o_g_i_n_01_c_09_09_8cpp_a87382b332c29e1f67ae86bf3d2c5c3c7}} 
+\index{LOGIN C++.cpp@{LOGIN C++.cpp}!SP@{SP}}
+\index{SP@{SP}!LOGIN C++.cpp@{LOGIN C++.cpp}}
+\doxysubsubsection{\texorpdfstring{SP}{SP}}
+{\footnotesize\ttfamily const char SP = \textquotesingle{} \textquotesingle{}}
+

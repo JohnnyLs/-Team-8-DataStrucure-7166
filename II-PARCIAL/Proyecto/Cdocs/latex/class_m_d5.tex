@@ -1,0 +1,140 @@
+\hypertarget{class_m_d5}{}\doxysection{Referencia de la Clase MD5}
+\label{class_m_d5}\index{MD5@{MD5}}
+
+
+md5  
+
+
+
+
+{\ttfamily \#include $<$md5.\+h$>$}
+
+\doxysubsection*{Tipos públicos}
+\begin{DoxyCompactItemize}
+\item 
+typedef unsigned int \mbox{\hyperlink{class_m_d5_aa836972700679dbcff6ae8337f6db464}{size\+\_\+type}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_m_d5_afa6155ec36de415ab2dcf5e54b670d13}{MD5}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_m_d5_afa6155ec36de415ab2dcf5e54b670d13}{MD5\+::\+MD5}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_m_d5_a155356ffd713345e69e6dcbd9f8da6ce}{MD5}} (const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_m_d5_afa6155ec36de415ab2dcf5e54b670d13}{MD5\+::\+MD5}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_m_d5_ac5ddf6cd8f940422396d321ea90ed045}{update}} (const unsigned char $\ast$buf, \mbox{\hyperlink{class_m_d5_aa836972700679dbcff6ae8337f6db464}{size\+\_\+type}} length)
+\item 
+void \mbox{\hyperlink{class_m_d5_ac5ccba375539b993958fb235f8ac849c}{update}} (const char $\ast$buf, \mbox{\hyperlink{class_m_d5_aa836972700679dbcff6ae8337f6db464}{size\+\_\+type}} length)
+\item 
+\mbox{\hyperlink{class_m_d5}{MD5}} \& \mbox{\hyperlink{class_m_d5_a10f607494a3f2e3e515fc4b99d1a06cc}{finalize}} ()
+\begin{DoxyCompactList}\small\item\em finalice \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_m_d5_aaf466f683b4bd8b1b66544f48bf09608}{hexdigest}} () const
+\begin{DoxyCompactList}\small\item\em hexdigest \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Amigas}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_m_d5_a18cb04ba932bf64a61be07b38e43fd1f}{operator$<$$<$}} (std\+::ostream \&, \mbox{\hyperlink{class_m_d5}{MD5}} \mbox{\hyperlink{md5_8h_a92c6eed2e9b51298af559aff6792770b}{md5}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+md5 
+
+\doxysubsection{Documentación de los \textquotesingle{}Typedef\textquotesingle{} miembros de la clase}
+\mbox{\Hypertarget{class_m_d5_aa836972700679dbcff6ae8337f6db464}\label{class_m_d5_aa836972700679dbcff6ae8337f6db464}} 
+\index{MD5@{MD5}!size\_type@{size\_type}}
+\index{size\_type@{size\_type}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{size\_type}{size\_type}}
+{\footnotesize\ttfamily typedef unsigned int \mbox{\hyperlink{class_m_d5_aa836972700679dbcff6ae8337f6db464}{MD5\+::size\+\_\+type}}}
+
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_m_d5_afa6155ec36de415ab2dcf5e54b670d13}\label{class_m_d5_afa6155ec36de415ab2dcf5e54b670d13}} 
+\index{MD5@{MD5}!MD5@{MD5}}
+\index{MD5@{MD5}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{MD5()}{MD5()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily MD5\+::\+MD5 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_m_d5_afa6155ec36de415ab2dcf5e54b670d13}{MD5\+::\+MD5}} object. 
+
+\mbox{\Hypertarget{class_m_d5_a155356ffd713345e69e6dcbd9f8da6ce}\label{class_m_d5_a155356ffd713345e69e6dcbd9f8da6ce}} 
+\index{MD5@{MD5}!MD5@{MD5}}
+\index{MD5@{MD5}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{MD5()}{MD5()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily MD5\+::\+MD5 (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_m_d5_afa6155ec36de415ab2dcf5e54b670d13}{MD5\+::\+MD5}} object. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em text} & \\
+\hline
+\end{DoxyParams}
+Gráfico de llamadas para esta función\+:
+% FIG 0
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_m_d5_a10f607494a3f2e3e515fc4b99d1a06cc}\label{class_m_d5_a10f607494a3f2e3e515fc4b99d1a06cc}} 
+\index{MD5@{MD5}!finalize@{finalize}}
+\index{finalize@{finalize}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{finalize()}{finalize()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_m_d5}{MD5}} \& MD5\+::finalize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+finalice 
+
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_m_d5}{MD5}}\& 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+% FIG 1
+Gráfico de llamadas a esta función\+:
+% FIG 2
+\mbox{\Hypertarget{class_m_d5_aaf466f683b4bd8b1b66544f48bf09608}\label{class_m_d5_aaf466f683b4bd8b1b66544f48bf09608}} 
+\index{MD5@{MD5}!hexdigest@{hexdigest}}
+\index{hexdigest@{hexdigest}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{hexdigest()}{hexdigest()}}
+{\footnotesize\ttfamily std\+::string MD5\+::hexdigest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+hexdigest 
+
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_m_d5_ac5ccba375539b993958fb235f8ac849c}\label{class_m_d5_ac5ccba375539b993958fb235f8ac849c}} 
+\index{MD5@{MD5}!update@{update}}
+\index{update@{update}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void MD5\+::update (\begin{DoxyParamCaption}\item[{const char $\ast$}]{buf,  }\item[{\mbox{\hyperlink{class_m_d5_aa836972700679dbcff6ae8337f6db464}{size\+\_\+type}}}]{length }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_m_d5_ac5ddf6cd8f940422396d321ea90ed045}\label{class_m_d5_ac5ddf6cd8f940422396d321ea90ed045}} 
+\index{MD5@{MD5}!update@{update}}
+\index{update@{update}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void MD5\+::update (\begin{DoxyParamCaption}\item[{const unsigned char $\ast$}]{buf,  }\item[{\mbox{\hyperlink{class_m_d5_aa836972700679dbcff6ae8337f6db464}{size\+\_\+type}}}]{length }\end{DoxyParamCaption})}
+
+Gráfico de llamadas a esta función\+:
+% FIG 3
+
+
+\doxysubsection{Documentación de las funciones relacionadas y clases amigas}
+\mbox{\Hypertarget{class_m_d5_a18cb04ba932bf64a61be07b38e43fd1f}\label{class_m_d5_a18cb04ba932bf64a61be07b38e43fd1f}} 
+\index{MD5@{MD5}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!MD5@{MD5}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{\mbox{\hyperlink{class_m_d5}{MD5}}}]{md5 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+LOGIN C++/\mbox{\hyperlink{md5_8h}{md5.\+h}}\item 
+LOGIN C++/\mbox{\hyperlink{md5_8cpp}{md5.\+cpp}}\end{DoxyCompactItemize}
