@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img width="300" height="300" src="https://media.giphy.com/media/jmYJF3hGctoOI/giphy.gif">
+  <img width="300" height="300" src="https://giphy.com/embed/f9k1tV7HyORcngKF8v">
 </p>
 
 **Integrantes:**
