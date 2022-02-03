@@ -6,7 +6,7 @@
 
 
 <p>
-  <a href="https://giphy.com/gifs/pc-dachshund-salchicheros-jmYJF3hGctoOI">via GIPHY</a>
+  <a href="https://media4.giphy.com/media/jmYJF3hGctoOI/giphy.gif?cid=790b761134330577208420f5f54475f96579172b5fd8f520&rid=giphy.gif&ct=g">via GIPHY</a>
 </p>
 
 **Integrantes:**
