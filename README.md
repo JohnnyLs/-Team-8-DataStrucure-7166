@@ -5,8 +5,8 @@
 </p>
 
 
-<p align="center">
-  <img width="300" height="300" src="https://giphy.com/embed/f9k1tV7HyORcngKF8v">
+<p>
+  <a href="https://giphy.com/gifs/pc-dachshund-salchicheros-jmYJF3hGctoOI">via GIPHY</a>
 </p>
 
 **Integrantes:**
